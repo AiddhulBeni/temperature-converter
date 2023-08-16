@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Temperatur Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1>Temperature Calculator</h1>
+        <label for="userInput">Input Temperature : </label><br />
+        <input type="number" id="userInput" />
+
+        <div class="select-unit">
+          <div class="fromUnit">
+            <select name="fromUnit" id="fromUnit">
+              <option value="C">Celcius</option>
+              <option value="F">Fahrenheit</option>
+              <option value="K">Kelvin</option>
+            </select>
+          </div>
+          <span>To</span>
+          <div class="toUnit">
+            <select name="toUnit" id="toUnit">
+              <option value="C">Celcius</option>
+              <option value="F">Fahrenheit</option>
+              <option value="K">Kelvin</option>
+            </select>
+          </div>
+        </div>
+        
+        <br>
+        <div>
+          <button type="button" id="submitButton">Submit</button>
+          <p>Hasil : <span id="result"></span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script> 
+    <!-- <script src="temp-convert.js"></script> -->
+  </body>
+</html>
+
+<!-- <section>
+  <label for="">Input Temperatur</label>
+  <input type="text" id="userInput" /><br /><brC>
+  <label for="convertTo">Convert To : </label><br />
+  <select name="convert" id="convertTo">
+    <option value="" >Celcius</option>
+    <option value="">Fahrenheit</option>
+    <option value="">Kelvin</option>
+  </select>
+</section>
+<br />
+
+<button id="submitButton">Submit</button>
+
+<p>Hasil : <span id="result"></span></p> -->
